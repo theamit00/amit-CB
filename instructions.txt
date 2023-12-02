@@ -1,0 +1,29 @@
+New branch banane se pehle do, aur is time apni machine mei main branch par hona jarrori hai
+    - git pull upstream main
+
+1. Jab bhi kaam krna hoga main ki copy create krni hogi sabse pehle
+    - git checkout -b new_branch_name, new_branch_name aapki marzi ka de
+
+2. To check kaunsi branch par hai
+    - git branch
+
+3. Branch par jaane ke baad jo code karna hai karo
+
+4. Apne code ko branch ke andar fix karna jispar kaam ho rha hai
+    - git add .
+    - git commit -m "Adding new batches dates and cards"
+    
+    Yeh code aapne apni created branch ke upar daal diya hai
+
+5. Toh next step hai apni system ki repository se github par lekar jaana code ko
+    - git push origin new_branch_name
+
+6. 
+
+To check currently kaunsi file mei changes hai: - git status
+
+7. Branches mei shift krne ke liye
+    - git checkout branch_na
+
+2129232022
+DL03 20019407018
