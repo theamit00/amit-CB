@@ -1,0 +1,83 @@
+.lc-hero-section {
+  background-color: #000;
+  padding: 0 !important;
+}
+
+.lc-hero-section__left {
+  padding: 60px 0px;
+}
+
+.lc-hero-section__left h1 {
+  font-weight: 900;
+  font-size: 52px;
+  color: #fff;
+}
+
+.lc-hero-section__actions {
+  margin-top: 36px;
+}
+
+.lc-hero-section__actions > a {
+  margin-right: 16px;
+}
+
+.lc-hero-section__rating {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.lc-hero-section__rating span {
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.lc-hero-section__backdrop {
+  position: absolute;
+  left: 0%;
+  top: 0;
+  height: 100%;
+}
+
+.lc-hero-section__right {
+  position: relative;
+  height: 400px;
+}
+
+.lc-hero-section__mentor {
+  height: 400px;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+.lc-hero-section__mentor img {
+  height: 100%;
+  width: auto;
+}
+
+
+.lc-hero-section__mentor div {
+  position: absolute;
+  background: #0E1017;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.lc-hero-section__mentor div:nth-child(2) {
+  top: 20%;
+  left: -5%;
+}
+
+.lc-hero-section__mentor div:nth-child(3) {
+  top: 80%;
+  left: 30%;
+}
+
+.lc-hero-section__mentor div:nth-child(4) {
+  top: 60%;
+  right: 0%;
+}

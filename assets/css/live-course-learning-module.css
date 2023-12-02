@@ -1,0 +1,115 @@
+.lc-learning-module .container {
+  background: #08090C;
+  padding: 24px 48px;
+  border: 0.5px solid #2D303A;
+  border-radius: 10px;
+}
+
+.lc-learning-module h2 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #fff;
+  padding-bottom: 24px;
+  border-bottom: 0.8px solid #2D303A;
+}
+
+.lc-learning-module__body {
+  padding-top: 24px;
+}
+
+
+.lc-learning-module__head-cards {
+  display: flex;
+  align-items: center;
+}
+
+.lc-learning-module__head-card-item {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 28px;
+  min-width: 150px;
+  margin-right: 16px;
+}
+
+.lc-learning-module__head-card-item span:first-child {
+  font-weight: 900;
+  font-size: 20px;
+  color: #f2f2f2;
+}
+
+.lc-learning-module__head-card-item span:last-child {
+  font-size: 16px;
+  color: #f2f2f2;
+}
+
+.lc-learning-module__features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 32px;
+  column-gap: 16px;
+}
+
+.lc-learning-module__features h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #BDBDBD;
+  padding-bottom: 16px;
+  border-bottom: 0.8px solid #2D303A;
+}
+
+.lc-learning-module__features ul {
+  padding-inline-start: 0;
+  list-style: none;
+  padding-top: 16px;
+}
+
+.lc-learning-module__features li {
+  font-weight: 500;
+  font-size: 16px;
+  color: #E0E0E0;
+  padding: 8px 0px;
+}
+
+.lc-learning-module__footer {
+  background: #15171E;
+  border: 0.5px solid #2D303A;
+  border-radius: 5px;
+  padding: 18px 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.lc-learning-module__footer span:nth-child(1) {
+  font-weight: 800;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.lc-learning-module__footer span:nth-child(2) {
+  background: linear-gradient(90deg, #FF6E3F 0%, #FF5634 100%);
+  border-radius: 2px;
+  padding: 0px 4px;
+}
+
+.lc-learning-module__footer span:nth-child(3) {
+  font-weight: 700;
+  font-size: 16px;
+  color: #BDBDBD;
+}
+
+.nav-item {
+  background: linear-gradient(94.53deg, #1C1E25 1.87%, #1F222C 100%);
+  border-radius: 10px;
+}
+
+.nav-item a {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 30px;
+  position: relative;
+}

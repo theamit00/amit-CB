@@ -1,0 +1,20 @@
+.lc-features-card {
+  width: 100%;
+  padding: 36px 56px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lc-features-card > span {
+  display: flex;
+  align-items: center;
+}
+
+.lc-features-card > span > span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 12px;
+}

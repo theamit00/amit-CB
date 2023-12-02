@@ -1,0 +1,187 @@
+* {
+  font-family: "Mulish";
+}
+
+section {
+  overflow: visible;
+}
+
+.hero-section img {
+  width: auto !important;
+}
+
+.hero-section {
+  background-image: url("../img/prof-courses/hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section h1 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 1.5rem;
+}
+
+.hero-section a {
+  display: inline-block;
+  background: #f2f2f2;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #000000;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+}
+
+.hero-section .owl-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.hero-section .owl-dot {
+  margin: 0 0.5rem;
+  border: 1px solid #2b313f !important;
+  background: #2b313f !important;
+  height: 8px;
+  width: 12px;
+  border-radius: 2px;
+}
+
+.hero-section .owl-dots > .active {
+  border-color: #fb8133 !important;
+  background: #fb8133 !important;
+}
+
+/* eligibility-criteria-section */
+
+.eligibility-criteria-section {
+  background-image: url("../img/prof-courses/mesh.svg");
+  margin: 0 !important;
+}
+
+.eligibility-criteria-section__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.eligibility-criteria-section__header > img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.eligibility-criteria-section__header > h3 {
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-left: 1.5rem;
+}
+
+
+.eligibility-criteria-section__info-box {
+  background: #2b2d33;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #f2f2f2;
+  padding: 1.25rem 2rem;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.eligibility-criteria-section h4 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #f2f2f2;
+  margin-bottom: 1.5rem;
+}
+
+.eligibility-criteria-section__logo-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.eligibility-criteria-section__logo-box > img {
+  justify-self: center;
+  align-self: center;
+}
+
+.eligibility-criteria-section__form-container {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.eligibility-criteria-section form {
+  border: 1px solid #3b4254;
+  background: #1a1c25;
+  border-radius: 10px;
+  padding: 3rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: -200px;
+  width: 80%;
+}
+
+.eligibility-criteria-section form > label {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #ffffff;
+}
+
+.eligibility-criteria-section form > input,
+.eligibility-criteria-section form > select {
+  background: #15171e;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.875rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.eligibility-criteria-section form > input[type="submit"] {
+  background: linear-gradient(90deg, #f26a3e 0%, #fb8133 100%);
+  box-shadow: 0px 0px 13.7895px rgba(243, 109, 60, 0.2);
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.875rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.eligibility-criteria-section form > p {
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: #4f4f4f;
+  text-align: center;
+  margin-bottom: 0;
+}

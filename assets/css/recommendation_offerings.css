@@ -1,0 +1,82 @@
+/* Hero Section */
+.border-card.yt-shorts-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: fit-content;
+}
+
+.txtunderline.live-course{
+    width: 320px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+
+#recommendation th,#recommendation td{
+    position: relative;
+    text-align: center;
+    font-size: 0.92rem;
+    color: white;
+    padding: .5rem;
+}
+
+#recommendation th, #recommendation td:nth-of-type(1){
+    background: linear-gradient(90deg, #f26a3e 0%, #fb8133 100%);
+}
+
+#recommendation i{
+    color: #fb8133;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+@media (max-width:991px) {
+
+    /* Hero Section By Amit */
+
+    #hero .live-course h1, #hero .live-course .headtxtoutline{
+        text-align: left;
+        font-size: 25px;
+    }
+
+    /* Added by Amit */
+  .txtunderline.live-course{
+    width: 170px;
+    margin-top: 5px;
+  }
+
+    /* #hero .live-course .headtxtoutline{
+        font-size: ;
+    } */
+
+    #recommendation th,#recommendation td{
+        font-size: .88rem;
+        padding: .3rem;
+    }
+}
+
+@media (max-width:767px) {
+    #recommendation th,#recommendation td{
+        font-size: 0.81rem;
+        padding: .3rem;
+    }
+}
+
+@media (max-width:480px) {
+    #hero .live-course h1, #hero .live-course .headtxtoutline{
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+      /* Added by Amit */
+  .txtunderline.live-course{
+    width: 155px;
+    height: 15px;
+    margin-top: 5px;
+  }
+}

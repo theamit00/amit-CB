@@ -1,0 +1,180 @@
+form {
+  border: 1px solid #3b4254;
+  background: #1a1c25;
+  border-radius: 10px;
+  padding: 3rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
+  top: -200px; */
+  /* width: 80%; */
+}
+
+form > label {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #ffffff;
+}
+
+form > input,
+form > select {
+  background: #15171e;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.875rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+form > input[type="submit"] {
+  background: linear-gradient(90deg, #f26a3e 0%, #fb8133 100%);
+  box-shadow: 0px 0px 13.7895px rgba(243, 109, 60, 0.2);
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.875rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+form > p {
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: #4f4f4f;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+
+/* Style for the form on ScholarShip.html */
+
+.upcomingbox.right {
+  border: none;
+  box-shadow: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.upcomingbox.right form {
+  border: 1px solid #3b4254;
+  background: #08090c;
+  border-radius: 10px;
+  padding: 1.75rem 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+
+}
+
+.upcomingbox.right form label {
+  font-weight: 700;
+  font-size: .75rem;
+  line-height: 1.125rem;
+  color: #ffffff;
+  margin-bottom: .5rem;
+}
+
+.upcomingbox.right form input,
+.upcomingbox.right form select {
+  background: #15171e;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.125rem;
+  margin-bottom: .625rem;
+}
+
+.upcomingbox.right form input[type="submit"] {
+  background: linear-gradient(90deg, #f26a3e 0%, #fb8133 100%);
+  box-shadow: 0px 0px 13.7895px rgba(243, 109, 60, 0.2);
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.75rem 1.125rem;
+  margin-top: .75rem;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1024px) {
+
+  .upcomingbox.right form {
+    width: 90%;
+    padding: 1.75rem;
+  }
+
+}
+
+@media (max-width: 991px) {
+
+  .upcomingbox.right form {
+    width: 90%;
+    padding: 1.125rem;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .upcomingbox.right form {
+    width: 80%;
+    padding: 1.25rem;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  
+  .upcomingbox.right form input,
+  .upcomingbox.right form select {
+    font-size: .75rem;
+    padding: 0.5rem .875rem;
+    margin-bottom: .5rem
+  }
+
+  .upcomingbox.right form input[type="submit"] {
+    font-size: .75rem;
+    padding: 0.5rem .875rem;
+    margin-top: .5rem;
+    margin-bottom: .25rem;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .upcomingbox.right form {
+    width: 90%;
+    padding: .875rem;
+  }
+
+  .upcomingbox.right form label{
+    margin-bottom: .25rem;
+  }
+
+  .upcomingbox.right form input,
+  .upcomingbox.right form select {
+    padding: 0.5rem .875rem;
+    margin-bottom: .375rem
+  }
+}
+
+
+
+
+
+
+
+

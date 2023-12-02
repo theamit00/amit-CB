@@ -1,0 +1,166 @@
+/* Course card ====================================== */
+.course-card {
+  background: #1F222C;
+  box-shadow: 0px 14.3063px 30.5201px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+/* Course card header =============================== */
+.course-card__header {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border-radius: 10px 10px 0px 0px;
+  height: 84px;
+}
+
+.course-card__header--cplusplus {
+  background: linear-gradient(94.95deg, #6809D9 3.14%, #430CD7 100%);
+}
+
+.course-card__header--java {
+  background: linear-gradient(270deg, #F24F60 10.36%, #A5066C 95.36%);
+}
+
+.course-card__header--react {
+  background: #9B51E0;
+}
+
+.course-card__header--android {
+  background: linear-gradient(103.35deg, #279366 1.42%, #0BAFAF 100%);
+}
+
+.course-card__header--data-science {
+  background: linear-gradient(94.95deg, #6809D9 3.14%, #0CD7B2 100%);
+}
+
+.course-card__header--interview-prep {
+  background: linear-gradient(96.32deg, #06215D 0%, #7E348B 100%);
+}
+
+.course-card__header--cp {
+  background: linear-gradient(270deg, #F24F60 10.36%, #A5066C 95.36%);
+}
+
+.course-card__header--system-design {
+  background: linear-gradient(94.95deg, #6809D9 3.14%, #279366 100%);
+}
+
+.course-card__header--devops {
+  background: #9B51E0;
+}
+
+.course-card__header--Sampoorna {
+  background: #2AB0EC;
+}
+
+.course-card__header__logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center
+}
+
+.course-card__header__title {
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+  flex-grow: 1;
+}
+
+/* Course card date =============================== */
+.course-card__date {
+  display: flex;
+  align-items: center;
+  padding: 12px 18px;
+  border-bottom: 1px solid #3B4254;
+}
+
+.course-card__date__live {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #FF6E3F 0%, #FF5634 100%);
+  border-radius: 2px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+  padding: 2px 4px;
+}
+
+.course-card__date__live__text {
+  padding-left: 2px;
+}
+
+.course-card__date__text {
+  flex-grow: 1;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  margin-left: 32px;
+}
+
+.course-card__date__text--bold {
+  font-weight: 800;
+}
+
+/* Course card perks =============================== */
+.course-card__perks {
+  padding: 18px;
+  border-bottom: 1px solid #3B4254;
+}
+
+.course-card__perks__title {
+  font-weight: 700;
+  font-size: 12px;
+  color: #BDBDBD;
+}
+
+.course-card__perks__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.course-card__perks__list__item {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  padding: 6px 0px;
+}
+
+.course-card__perks__list__item__title {
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  margin-left: 4px;
+}
+
+/* Course card footer =============================== */
+.course-card__footer {
+  padding: 18px;
+}
+
+.course-card__footer__link {
+  display: inline-block;
+  width: 100%;
+  background: linear-gradient(90deg, #F26A3E 0%, #FB8133 100%);
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.course-card__footer__link:hover,
+.course-card__footer__link:active {
+  display: inline-block;
+  width: 100%;
+  background: linear-gradient(90deg, #F26A3E 0%, #FB8133 100%);
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+  font-weight: 700;
+}

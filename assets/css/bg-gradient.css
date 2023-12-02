@@ -1,0 +1,27 @@
+.bg-gradient-1 {
+  background: linear-gradient(94.95deg, #6809D9 3.14%, #430CD7 100%);
+}
+
+.bg-gradient-2 {
+  background: linear-gradient(270deg, #F24F60 10.36%, #A5066C 95.36%);
+}
+
+.bg-gradient-3 {
+  background: #9B51E0;
+}
+
+.bg-gradient-4 {
+  background: linear-gradient(103.35deg, #279366 1.42%, #0BAFAF 100%);
+}
+
+.bg-gradient-5 {
+  background: linear-gradient(94.95deg, #6809D9 3.14%, #0CD7B2 100%);
+}
+
+.bg-gradient-6 {
+  background: linear-gradient(96.32deg, #06215D 0%, #7E348B 100%);
+}
+
+.bg-gradient-7 {
+  background: linear-gradient(94.95deg, #6809D9 3.14%, #279366 100%);
+}
