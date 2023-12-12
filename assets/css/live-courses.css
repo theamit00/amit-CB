@@ -1,0 +1,182 @@
+/* .coursebanner .cartoon-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.coursebanner .cartoon-images--image{
+    width: 170px;
+}
+
+.coursebanner .cartoon-images--image img{
+    width: 100%;
+} */
+
+/* PopUp Model */
+
+.course-popUp-modal #form-card{
+    position: relative;
+}
+
+.course-popUp-modal .close{
+    position:absolute;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.coursebanner .learncontent .icon-box h4{
+    font-size: 12px;
+}
+
+.bannersubsection .cousecontent.a-cousecontent{
+    bottom: -170px;
+    justify-content: flex-start;
+}
+
+.cousecontent.a-cousecontent h4{
+    /* text-align: left */
+    font-size: 30px;
+}
+
+.coursebanner .coursecontent-images{
+    width: 100%;
+}
+
+.coursebanner .coursecontent-images--image{
+    width: 170px;
+}
+
+.coursebanner .coursecontent-images--image img{
+    width: 100%;
+}
+
+.coursebanner .coursebanner-head-text{
+    font-size: 2.55rem;
+}
+
+.coursebanner .subtitle.coursebanner-subtitle{
+    padding-left: 30px;
+}
+
+.coursebanner .subtitle.coursebanner-subtitle::before{
+    margin-left: 15px;
+}
+
+.whydothiscourse-row{
+    position: relative;
+}
+
+.whydothiscourse-row .yt-shorts-card{
+    position: absolute;
+    top: -25%;
+    right: 0;
+}
+
+
+
+
+.dsabox .testimonial-box-head .featureimg{
+    padding: 25px 0px 0px 25px;
+}
+
+.dsabox .testimonial-box-head .featureimg.testimonial-box-image img{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+#recommendation th,#recommendation td{
+    position: relative;
+    text-align: center;
+    font-size: 0.92rem;
+    color: white;
+    padding: .5rem;
+}
+
+#recommendation th, #recommendation td:nth-of-type(1){
+    background: linear-gradient(90deg, #f26a3e 0%, #fb8133 100%);
+}
+
+#recommendation i{
+    color: #fb8133;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+
+.testimonial-box-image img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.testimonial-box-head{
+    position: relative;
+    aspect-ratio: 16/9;
+}
+.testimonial-box-head iframe{
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+@media (max-width:991px) {
+
+    .whydothiscourse-row .yt-shorts-card{
+        position: static;
+        /* top: -25%;
+        right: 0; */
+    }
+
+    /* #hero .live-course .headtxtoutline{
+        font-size: ;
+    } */
+
+    #recommendation th,#recommendation td{
+        font-size: .88rem;
+        padding: .3rem;
+    }
+}
+
+@media (max-width:767px) {
+    #recommendation th,#recommendation td{
+        font-size: 0.81rem;
+        padding: .3rem;
+    }
+}
+
+@media (max-width:480px) {
+    .coursebanner .coursebanner-head-text{
+        font-size: 1.5rem;
+    }
+
+    .coursebanner .learncontent .icon-box h4{
+        font-size: 9.5px;
+    }
+
+    .cousecontent.a-cousecontent h4{
+        font-size: 1.2rem;
+    }
+
+    .coursebanner .coursecontent-images--image{
+        width: 100px;
+    }
+
+    .nacp .title-heading{
+        overflow-wrap: break-word;
+    }
+}
+
+@media (max-width:390px){
+    .coursebanner .coursecontent-images--image{
+        width: 80px;
+    }
+}
+
